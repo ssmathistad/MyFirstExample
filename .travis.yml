@@ -2,3 +2,5 @@ language: cpp
 os: linux
 script:
     - make
+    - cpplint *.cpp
+    - scan-build --status-bugs make
