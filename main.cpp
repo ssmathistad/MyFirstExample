@@ -1,7 +1,5 @@
 #include <iostream>
-
-using std::cin;
-using std::cout;
+using namespace std;
 
 int main()
 {
@@ -11,6 +9,8 @@ int main()
     cout<<"Hi, please enter two numbers: ";
 
     cin >> num1 >> num2;
-
-    return 0;
+    
+    void test() {
+      int *p = new int;
+    } // warn     
 }
