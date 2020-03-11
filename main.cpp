@@ -10,7 +10,9 @@ int main()
 
     cin >> num1 >> num2;
     
-    void test() {
-      int *p = new int;
-    } // warn     
+   test();
 }
+
+void test() {
+    int *p = new int;
+} // warn  
