@@ -10,9 +10,8 @@ int main()
 
     cin >> num1 >> num2;
     
-   test();
-}
+    int num = 0;
+    
+    int ret = 6/num;
 
-void test() {
-    int *p = new int;
-} // warn  
+}
